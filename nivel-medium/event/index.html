@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nivel Mid Level JavaScript |</title>
+    <link rel="stylesheet" href=".//style.css" />
+    <!-- <script src="./event.js"></script> -->
+  </head>
+  <body>
+    <!-- Event Handler y Listener -->
+    <article>
+      <button class="handler">Click 1</button>
+      <button class="listener">Click 2</button>
+    </article>
+    <!-- Event Flow -->
+    <article>
+      <section class="contain-1">
+        <div class="contain-b">
+          <button class="btn-b">Event Bubbling</button>
+        </div>
+      </section>
+      <section class="contain-2">
+        <div class="contain-c">
+          <button class="btn-c">Event Capturing</button>
+        </div>
+      </section>
+    </article>
+    <!-- Stop Propagation -->
+    <article>
+      <div class="contenedor-padre">
+        <div class="contenedor">
+          <button class="boton">No propagar evento</button>
+        </div>
+      </div>
+    </article>
+    <!-- Mouse Event -->
+    <article class="caja">
+      <div class="parte-1"></div>
+      <div class="parte-2"></div>
+    </article>
+    <!-- Key Event -->
+    <article class="box-key">
+      <input type="text" class="input" />
+    </article>
+    <!-- Interface Events -->
+    <article class="box-key box-select">
+      <input type="text" class="input select" />
+    </article>
+    <!-- Timers -->
+    <article class="box-key">
+      <button class="btn-tim">setTimeout</button>
+      <button class="btn-int">setInterval</button>
+      <button class="btn-clear-int">clearInterval</button>
+    </article>
+    <script src="./event.js"></script>
+  </body>
+</html>
