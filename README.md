@@ -92,3 +92,7 @@ En el penultimo nivel master aprenndí:
 - Operador Ternario
 
 ---
+
+<img src="img/js.svg">
+
+---
